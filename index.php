@@ -17,7 +17,7 @@
             <?php
                 session_unset(); }
             ?>
-
+         
             <form action="save_task.php" method="POST">
                 <div class="card card-body">
                     <div class="form-group">
@@ -25,6 +25,7 @@
                     </div>
                     <div class="form-group">
                         <textarea name="description"  rows="2" placeholder="Decription" class="form-control"></textarea>
+                        
                     </div>
                     <input type="submit" class="btn btn-success btn-block" name="save_task" value="Save Task">
                 </div>
